@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="2160" viewBox="0 0 1920 1080" role="img" aria-labelledby="title description">
+  <title id="title">Enable GenAI in your applications</title>
+  <desc id="description">Opening slide for Johnny Hooyberghs's Øredev 2026 talk about building GenAI applications with .NET, Azure, and the Microsoft Agent Framework.</desc>
+  <defs>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 64 0 L 0 0 0 64" fill="none" stroke="#ffffff" stroke-opacity=".035" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dbf536"/>
+      <stop offset="1" stop-color="#40f59f"/>
+    </linearGradient>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;600;700&amp;family=Inter:wght@400;500;600;700&amp;family=Outfit:wght@400;600;700;800&amp;display=swap");
+      text { text-rendering: geometricPrecision; }
+      .display { font-family: Outfit, Inter, sans-serif; font-weight: 800; }
+      .body { font-family: Inter, sans-serif; }
+      .mono { font-family: "Geist Mono", monospace; }
+    </style>
+  </defs>
+  <rect width="1920" height="1080" fill="#121214"/>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+  <rect x="0" y="0" width="14" height="1080" fill="#dbf536"/>
+
+  <g aria-label="Øredev 2026">
+    <text x="112" y="105" fill="#ffffff" class="display" font-size="34" letter-spacing="1">ØREDEV</text>
+    <text x="113" y="133" fill="#dbf536" class="mono" font-size="12" letter-spacing="2">MALMÖ · SWEDEN</text>
+    <line x1="340" y1="78" x2="340" y2="138" stroke="#363638" stroke-width="2"/>
+    <text x="374" y="105" fill="#b8b8b8" class="mono" font-size="16" letter-spacing="2">DEVELOPER CONFERENCE</text>
+    <text x="374" y="133" fill="#b8b8b8" class="mono" font-size="13" letter-spacing="2">4–6 NOVEMBER 2026</text>
+  </g>
+  <g class="mono" font-size="13" letter-spacing="2">
+    <rect x="1572" y="83" width="224" height="42" rx="2" fill="none" stroke="#dbf536" stroke-width="1.5"/>
+    <text x="1684" y="110" fill="#dbf536" text-anchor="middle">SESSION / 2026</text>
+  </g>
+
+  <text x="118" y="319" fill="#ffffff" class="display" font-size="92">Enable <tspan fill="#dbf536">GenAI</tspan></text>
+  <text x="118" y="425" fill="#ffffff" class="display" font-size="82">in your applications</text>
+  <rect x="120" y="478" width="72" height="7" fill="#dbf536"/>
+  <text x="120" y="550" fill="#b8b8b8" class="body" font-size="36" font-weight="500">using .NET, Azure and the</text>
+  <text x="120" y="603" fill="#ffffff" class="body" font-size="36" font-weight="700">Microsoft Agent Framework</text>
+
+  <g aria-label="The application stack">
+    <circle cx="1485" cy="520" r="268" fill="none" stroke="#363638" stroke-width="2"/>
+    <circle cx="1485" cy="520" r="218" fill="none" stroke="url(#orbit)" stroke-width="2" stroke-dasharray="4 12" opacity=".85"/>
+    <circle cx="1485" cy="520" r="152" fill="#1a1a1c" stroke="#505052" stroke-width="2"/>
+    <circle cx="1485" cy="520" r="102" fill="#dbf536"/>
+    <text x="1485" y="542" fill="#121214" text-anchor="middle" class="display" font-size="62">AI</text>
+    <circle cx="1485" cy="252" r="8" fill="#dbf536"/>
+    <circle cx="1751" cy="520" r="8" fill="#40f59f"/>
+    <circle cx="1485" cy="788" r="8" fill="#dbf536"/>
+    <circle cx="1217" cy="520" r="8" fill="#40f59f"/>
+
+    <g class="mono" font-size="17" font-weight="600" text-anchor="middle">
+      <rect x="1311" y="222" width="348" height="64" rx="3" fill="#121214" stroke="#dbf536" stroke-width="2"/>
+      <text x="1485" y="262" fill="#ffffff">MICROSOFT AGENT FRAMEWORK</text>
+      <rect x="1677" y="488" width="142" height="64" rx="3" fill="#121214" stroke="#40f59f" stroke-width="2"/>
+      <text x="1748" y="528" fill="#ffffff">AZURE</text>
+      <rect x="1311" y="755" width="348" height="64" rx="3" fill="#121214" stroke="#dbf536" stroke-width="2"/>
+      <text x="1485" y="795" fill="#ffffff">.NET APPLICATIONS</text>
+    </g>
+    <path d="M 1327 383 C 1265 412 1230 459 1221 497" fill="none" stroke="#40f59f" stroke-width="2" opacity=".65"/>
+    <path d="M 1643 655 C 1705 625 1740 580 1749 543" fill="none" stroke="#40f59f" stroke-width="2" opacity=".65"/>
+  </g>
+
+  <line x1="118" y1="914" x2="1800" y2="914" stroke="#363638" stroke-width="2"/>
+  <text x="120" y="968" fill="#ffffff" class="mono" font-size="17" font-weight="600" letter-spacing="1">JOHNNY HOOYBERGHS</text>
+  <text x="120" y="1002" fill="#b8b8b8" class="mono" font-size="13" letter-spacing="2">.NET · AZURE · GENERATIVE AI</text>
+  <text x="1798" y="982" fill="#dbf536" text-anchor="end" class="mono" font-size="15" letter-spacing="2">ØREDEV 2026</text>
+</svg>

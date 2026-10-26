@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121214">
+  <title>Enable GenAI · Øredev 2026</title>
+  <link rel="stylesheet" href="../_resources/oredev-theme.css">
+</head>
+<body>
+  <main class="deck" aria-label="Presentation">
+    <img class="slide" id="slide" src="slide-01.svg" alt="Slide 1 of 3: Enable GenAI in your applications">
+  </main>
+  <p class="hint">← → navigate · F fullscreen</p>
+  <nav class="controls" aria-label="Slide navigation">
+    <button id="previous" type="button" aria-label="Previous slide">←</button>
+    <span id="counter" aria-live="polite">01 / 03</span>
+    <button id="next" type="button" aria-label="Next slide">→</button>
+  </nav>
+  <script>
+    const slides = [
+      { src: "slide-01.svg", alt: "Slide 1 of 3: Enable GenAI in your applications" },
+      { src: "slide-02.svg", alt: "Slide 2 of 3: Johnny Hooyberghs" },
+      { src: "slide-03.svg", alt: "Slide 3 of 3: Scan to visit the repository" }
+    ];
+    const slide = document.getElementById("slide");
+    const counter = document.getElementById("counter");
+    const previous = document.getElementById("previous");
+    const next = document.getElementById("next");
+    let current = 0;
+
+    function showSlide(index) {
+      current = Math.max(0, Math.min(slides.length - 1, index));
+      slide.src = slides[current].src;
+      slide.alt = slides[current].alt;
+      counter.textContent = `${String(current + 1).padStart(2, "0")} / ${String(slides.length).padStart(2, "0")}`;
+      previous.disabled = current === 0;
+      next.disabled = current === slides.length - 1;
+    }
+
+    previous.addEventListener("click", () => showSlide(current - 1));
+    next.addEventListener("click", () => showSlide(current + 1));
+    document.addEventListener("keydown", event => {
+      if (event.key === "ArrowLeft") showSlide(current - 1);
+      if (event.key === "ArrowRight") showSlide(current + 1);
+      if (event.key.toLowerCase() === "f") document.querySelector(".deck").requestFullscreen();
+    });
+
+    showSlide(0);
+  </script>
+</body>
+</html>
