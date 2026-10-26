@@ -9,19 +9,20 @@
 </head>
 <body>
   <main class="deck" aria-label="Presentation">
-    <img class="slide" id="slide" src="slide-01.svg" alt="Slide 1 of 3: Enable GenAI in your applications">
+    <img class="slide" id="slide" src="slide-01.svg" alt="Slide 1 of 4: Enable GenAI in your applications">
   </main>
   <p class="hint">← → navigate · F fullscreen</p>
   <nav class="controls" aria-label="Slide navigation">
     <button id="previous" type="button" aria-label="Previous slide">←</button>
-    <span id="counter" aria-live="polite">01 / 03</span>
+    <span id="counter" aria-live="polite">01 / 04</span>
     <button id="next" type="button" aria-label="Next slide">→</button>
   </nav>
   <script>
     const slides = [
-      { src: "slide-01.svg", alt: "Slide 1 of 3: Enable GenAI in your applications" },
-      { src: "slide-02.svg", alt: "Slide 2 of 3: Johnny Hooyberghs" },
-      { src: "slide-03.svg", alt: "Slide 3 of 3: Scan to visit the repository" }
+      { src: "slide-01.svg", alt: "Slide 1 of 4: Enable GenAI in your applications" },
+      { src: "slide-02.svg", alt: "Slide 2 of 4: Johnny Hooyberghs" },
+      { src: "slide-03.svg", alt: "Slide 3 of 4: Scan to visit the repository" },
+      { src: "slide-04.svg", alt: "Slide 4 of 4: Thank you for joining, questions?" }
     ];
     const slide = document.getElementById("slide");
     const counter = document.getElementById("counter");

@@ -4,7 +4,7 @@
 
 This repository accompanies the talk **“Enable GenAI in your applications using .NET, Azure and the Microsoft Agent Framework.”** It introduces a practical path from familiar .NET applications to generative AI, cloud services, and agentic workflows.
 
-Open the [offline slide preview](_slides/index.html) to navigate the first three slides with the arrow keys, or browse the individual slides below. Each slide includes a short takeaway and an explanation of its place in the presentation.
+Open the [offline slide preview](_slides/index.html) to navigate all four slides with the arrow keys, or browse the individual slides below. Each slide includes a short takeaway and an explanation of its place in the presentation.
 
 ## Presentation slides
 
@@ -36,4 +36,12 @@ Microsoft MVP recognition in Developer Technologies and Microsoft Azure, held si
 
 A large QR code links directly to the [presentation repository](https://github.com/Djohnnie/TheMicrosoftAgentFramework--redev-2026), where attendees can revisit the slides, resources, and updates. The code is embedded as a local SVG asset and is also clickable in the slide.
 
-The split lime-and-charcoal layout makes the call to action easy to spot from the room, while the repository address is printed alongside the code for people viewing the deck on screen.
+The charcoal layout pairs the call to action with the repository address for people viewing the deck on screen.
+
+### Slide 4 / Thank you and questions
+
+> **TL;DR:** Thank participants and invite questions.
+
+![Thank you for joining](_slides/slide-04.svg)
+
+The closing slide thanks participants, opens the floor for questions, and keeps the repository QR code available for anyone who wants the slides and resources.
